@@ -1,0 +1,109 @@
+.welcome-page {
+	margin-top: 55px;
+}
+.container {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+.welcome__text-welcome {
+	font-family: Poppins;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 400;
+	font-size: 0.88rem;
+	line-height: 1.31rem;
+	color: #fff;
+}
+h1 {
+	color: #fff;
+	font-family: Poppins;
+	font-size: 3.88rem;
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 0%;
+	text-align: center;
+	margin-top: 10px;
+}
+.welcome-text__information {
+	color: #fff;
+	font-family: Poppins;
+	font-size: 0.94rem;
+	font-weight: 300;
+	line-height: 1.88rem;
+	letter-spacing: 0%;
+	text-align: center;
+	text-transform: capitalize;
+	text-transform: capitalize;
+	margin-top: 20px;
+}
+.join-btn {
+	color: #fff;
+	font-family: Poppins;
+	font-size: 1.13rem;
+	font-weight: 500;
+	line-height: 1.69rem;
+	letter-spacing: 0%;
+	text-align: center;
+	text-transform: capitalize;
+	padding: 12.5px 37px 13.5px 37px;
+	border-radius: 1.75rem;
+	background: linear-gradient(
+		137.6deg,
+		rgb(48, 67, 169) 11.985%,
+		rgb(31, 98, 159) 96.601%
+	);
+}
+.contact-btn {
+	color: #fff;
+	font-family: Poppins;
+	font-size: 1.13rem;
+	font-weight: 300;
+	line-height: 1.69rem;
+	letter-spacing: 0%;
+	text-align: center;
+	text-transform: capitalize;
+	padding: 12.5px 29px 13.5px 29px;
+	box-sizing: border-box;
+	border: 0.06rem solid rgb(255, 255, 255);
+	border-radius: 1.75rem;
+}
+.welcome-btns {
+	padding-top: 12.5px;
+	padding-bottom: 13.5px;
+	margin-top: 30px;
+	ul {
+		display: flex;
+		justify-content: center;
+		li {
+			a {
+				margin-right: 20px;
+			}
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}
+.welcome-video {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.play-btn {
+	position: absolute;
+	margin-top: calc(924px - 664px);
+	margin-left: calc(682px - 170px);
+}
+
+.play-btn__center {
+	position: absolute;
+	margin-top: 23px;
+	margin-left: 28px;
+}
+.men-png {
+	background-image: url(/public/men-welcome-page.png);
+	height: 600px;
+	width: 100%;
+	background-position: 0px -116px;
+	max-width: 1110px;
+	margin: 0 auto;
+}

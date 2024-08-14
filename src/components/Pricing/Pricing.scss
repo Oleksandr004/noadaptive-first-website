@@ -1,0 +1,173 @@
+.pricing-page {
+	position: relative;
+}
+.pricing-page_bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 463px;
+	width: 100%;
+	background-color: #fff;
+	top: 500px;
+}
+.pricing-page__title {
+	max-width: 489px;
+	margin: 100px auto 0;
+	h4 {
+		color: rgb(255, 255, 255);
+		font-family: Poppins;
+		font-size: 0.88rem;
+		font-weight: 400;
+		line-height: 1.31rem;
+		letter-spacing: 0%;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.choosing {
+		color: rgb(255, 255, 255);
+		font-family: Poppins;
+		font-size: 2.5rem;
+		font-weight: 600;
+		line-height: 150%;
+		letter-spacing: 0%;
+		text-align: center;
+		text-transform: capitalize;
+		margin-bottom: 30px;
+	}
+}
+.standar-tariff,
+.premium-tariff,
+.basic-tariff {
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 35px;
+	box-shadow: 0px 16px 35px 0px rgba(112, 144, 176, 0.2);
+	width: 350px;
+	height: 682px;
+	background-color: #fff;
+	border-radius: 35px;
+	position: relative;
+}
+
+.tariffs-row {
+	margin-bottom: 100px;
+	max-width: 1110px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.popular-tariff {
+	img {
+		position: absolute;
+		top: -11px;
+		right: -1px;
+	}
+	p {
+		position: absolute;
+		top: 27px;
+		left: 284px;
+		color: rgb(255, 255, 255);
+		font-family: Poppins;
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 21px;
+		letter-spacing: 0%;
+		text-align: center;
+		text-transform: capitalize;
+	}
+}
+.name-tariff {
+	color: rgb(22, 29, 47);
+	font-family: Poppins;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 45px;
+	letter-spacing: 0%;
+	text-align: center;
+	margin-top: 30px;
+}
+.pricing-page {
+	img {
+		margin-left: 81px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+.trainer-tariff {
+	color: rgb(34, 34, 34);
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 150%;
+	letter-spacing: 0%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.basic-tariff__list,
+.standar-tariff__list,
+.premium-tariff__list {
+	li {
+		color: rgb(34, 34, 34);
+		font-family: Poppins;
+		font-size: 1.13rem;
+		font-weight: 300;
+		line-height: 1.69rem;
+		letter-spacing: 0%;
+		text-align: left;
+		margin-left: 116px;
+		position: relative;
+		margin-bottom: 10px;
+	}
+	li:before {
+		content: url(/public/check-mark.png);
+		position: absolute;
+		left: -33px;
+		top: 2px;
+	}
+}
+.price-basic {
+	margin-left: 50px;
+}
+.price-standar {
+	margin-left: 40px;
+}
+.price-premium {
+	margin-left: 37px;
+}
+
+.price-basic,
+.price-standar,
+.price-premium {
+	position: absolute;
+	bottom: 117px;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 150%;
+	letter-spacing: 0%;
+	span {
+		color: #161d2f;
+		font-size: 32px;
+		font-weight: 600;
+	}
+}
+.buy-btn {
+	color: rgb(255, 255, 255);
+	font-family: Poppins;
+	font-size: 1.13rem;
+	font-weight: 500;
+	line-height: 1.69rem;
+	letter-spacing: 0%;
+	text-align: center;
+	text-transform: capitalize;
+	padding: 15px 20px;
+	border-radius: 1.75rem;
+	background: linear-gradient(
+		137.6deg,
+		rgb(48, 67, 169) 11.947%,
+		rgb(31, 98, 159) 96.639%
+	);
+	position: absolute;
+	bottom: 30px;
+	left: 95px;
+}

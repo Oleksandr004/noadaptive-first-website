@@ -1,0 +1,61 @@
+.header {
+	min-height: 76px;
+	display: flex;
+	max-width: 1110px;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	margin-top: 11.5px;
+	padding: 0 15px;
+}
+nav ul {
+	display: flex;
+
+	li {
+		a {
+			color: #fff;
+			font-family: Poppins;
+			font-weight: 300;
+			font-size: 0.88rem;
+			line-height: 1.31rem;
+			margin-right: 40px;
+		}
+		&:last-child a {
+			margin-right: 0;
+		}
+	}
+}
+.logo {
+	font-family: Poppins;
+	font-weight: 800;
+	font-size: 1.5rem;
+	line-height: 2.25rem;
+	a {
+		color: #fff;
+	}
+}
+.header-btn {
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 1.13rem;
+	a {
+		color: #fff;
+		line-height: 1.69rem;
+	}
+	padding: 12.5px 37px 13.5px 37px;
+	border-radius: 1.75rem;
+	background: linear-gradient(
+		137.6deg,
+		rgb(48, 67, 169) 11.985%,
+		rgb(31, 98, 159) 96.601%
+	);
+}
+ul :first-child {
+	a {
+		font-weight: 900;
+	}
+}
+.pricing {
+	max-width: 107px;
+}

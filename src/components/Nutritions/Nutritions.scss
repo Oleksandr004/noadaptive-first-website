@@ -1,0 +1,102 @@
+.nutritions-page {
+	background-color: #fff;
+	padding-bottom: 100px;
+}
+.nutritions-page__container {
+	max-width: 1110px;
+	margin: 0 auto;
+	display: flex;
+}
+.nutritions-page_image {
+	width: 605px;
+	height: 484px;
+	position: relative;
+	margin-right: 60px;
+}
+.discipline {
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	background-image: url(/public/Discipline.png);
+	background-position: -24px -16px;
+	border-radius: 10px;
+	z-index: 1;
+}
+.man {
+	position: absolute;
+	height: 274px;
+	width: 472px;
+	margin-left: 100px;
+	background-image: url(/public/Atas.png);
+}
+.woman {
+	position: absolute;
+	width: 472px;
+	height: 274px;
+	background-image: url(/public/nutritions-page-woman.png);
+	margin-top: 210px;
+}
+.eating-healthy {
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	bottom: 0;
+	right: 0;
+	background-image: url(/public/nutritions-page-eating-healthy.png);
+	background-position: -24px -16px;
+}
+.nutritions-page__text {
+	height: 334px;
+	position: relative;
+	margin-top: 75px;
+	.nutritions {
+		color: rgb(34, 34, 34);
+		font-family: Poppins;
+		font-size: 0.88rem;
+		font-weight: 400;
+		line-height: 1.31rem;
+		letter-spacing: 0%;
+		text-align: left;
+		text-transform: uppercase;
+	}
+	h3 {
+		color: rgb(22, 29, 47);
+		font-family: Poppins;
+		font-size: 2.5rem;
+		font-weight: 600;
+		line-height: 150%;
+		letter-spacing: 0%;
+		text-align: left;
+		text-transform: capitalize;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.nutritions-info {
+		font-family: Poppins;
+		font-size: 0.94rem;
+		font-weight: 500;
+		line-height: 1.88rem;
+		letter-spacing: 0%;
+		text-align: left;
+		text-transform: capitalize;
+	}
+}
+.nutrition-btn {
+	position: absolute;
+	bottom: 0;
+	color: rgb(255, 255, 255);
+	font-family: Poppins;
+	font-size: 1.13rem;
+	font-weight: 500;
+	line-height: 1.69rem;
+	letter-spacing: 0%;
+	text-align: center;
+	text-transform: capitalize;
+	padding: 12.5px 37px 13.5px;
+	border-radius: 1.75rem;
+	background: linear-gradient(
+		137.6deg,
+		rgb(48, 67, 169) 11.985%,
+		rgb(31, 98, 159) 96.601%
+	);
+}
