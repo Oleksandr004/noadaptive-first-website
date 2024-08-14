@@ -27,7 +27,7 @@ This project represents my first non-responsive sports club website built with R
    ```bash
    git clone https://github.com/username/sport-club-website.git
 
-   cd sport-club-website
+   cd noadaptive-first-website
    npm instal
    npm run dev
    ```
