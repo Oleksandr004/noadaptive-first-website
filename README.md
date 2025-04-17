@@ -25,9 +25,16 @@ This project represents my first non-responsive sports club website built with R
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/username/sport-club-website.git
-
-   cd noadaptive-first-website
-   npm instal
-   npm run dev
-   ```
+   git clone https://github.com/Oleksandr004/noadaptive-first-website
+```
+  ```bash
+  cd noadaptive-first-website
+```
+  ```bash
+    npm instal
+```
+   
+   ```bash
+npm run dev
+```
+   
