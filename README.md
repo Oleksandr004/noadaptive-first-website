@@ -31,10 +31,10 @@ This project represents my first non-responsive sports club website built with R
   cd noadaptive-first-website
 ```
   ```bash
-    npm instal
+  npm instal
 ```
    
    ```bash
-npm run dev
+   npm run dev
 ```
    
